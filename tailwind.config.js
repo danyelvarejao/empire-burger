@@ -7,6 +7,7 @@ module.exports = {
                 'background': '#FAF3F2',
                 'red': 'rgb(170, 36, 41)',
                 'yellow': '#f59a1b',
+                'yellow-hover': '#F6A431',
                 'beige': '#fae2cb',
                 'brown': '#3b200b',
                 'title-black-38': 'rgba(40, 0, 3, 0.925)',

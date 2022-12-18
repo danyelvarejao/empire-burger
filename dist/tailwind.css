@@ -513,12 +513,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-auto {
@@ -559,12 +567,20 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -595,12 +611,12 @@ video {
   width: 4rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
+.max-w-7xl {
+  max-width: 80rem;
 }
 
-.max-w-5xl {
-  max-width: 64rem;
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .flex-1 {
@@ -639,6 +655,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -651,8 +671,16 @@ video {
   gap: 2rem;
 }
 
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .self-end {
   align-self: flex-end;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-md {
@@ -671,8 +699,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-l {
@@ -690,6 +718,14 @@ video {
 .border-beige {
   --tw-border-opacity: 1;
   border-color: rgb(250 226 203 / var(--tw-border-opacity));
+}
+
+.border-b-title-black-60\/20 {
+  border-bottom-color: rgb(99 83 82 / 0.2);
+}
+
+.border-l-title-black-38\/30 {
+  border-left-color: rgb(40 0 3 / 0.3);
 }
 
 .border-l-title-black-38 {
@@ -730,6 +766,10 @@ video {
   background-color: rgb(59 32 11 / var(--tw-bg-opacity));
 }
 
+.bg-title-black-60\/20 {
+  background-color: rgb(99 83 82 / 0.2);
+}
+
 .bg-banner-promotion-mobile {
   background-image: url('/assets/images/banners/banner-promotion-mobile.webp');
 }
@@ -758,19 +798,38 @@ video {
   padding: 2rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-8 {
@@ -806,6 +865,10 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
 }
 
 .pt-24 {
@@ -870,6 +933,11 @@ video {
   color: rgba(40, 0, 3, 0.925);
 }
 
+.text-title-black-60 {
+  --tw-text-opacity: 1;
+  color: rgb(99 83 82 / var(--tw-text-opacity));
+}
+
 .text-title-black-38\/90 {
   color: rgb(40 0 3 / 0.9);
 }
@@ -917,7 +985,31 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.hover\:bg-yellow-hover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 164 49 / var(--tw-bg-opacity));
+}
+
+.hover\:text-title-black-87:hover {
+  --tw-text-opacity: 1;
+  color: rgb(52 32 31 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:h-\[545px\] {
     height: 545px;
   }
@@ -953,6 +1045,14 @@ video {
 
   .md\:-mt-16 {
     margin-top: -4rem;
+  }
+
+  .md\:inline {
+    display: inline;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:h-full {
@@ -1007,6 +1107,30 @@ video {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:inline {
+    display: inline;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:inline {
+    display: inline;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:hidden {
+    display: none;
   }
 }
 

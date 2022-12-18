@@ -17,7 +17,7 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 ## 📝 Critérios de aceite
 
 - [ ] Criar as seguintes seções:
-- [ ] Menu
+- [x] Menu
 - [x] Hero Banner
 - [x] Ofertas especiais
 - [x] Horário de funcionamento

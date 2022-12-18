@@ -12,11 +12,61 @@
     <link rel="stylesheet" href="/dist/tailwind.css" />
   </head>
   <body class="antialised h-screen bg-background font-lato text-title-black-38">
-    <header></header>
+    <header class="fixed z-10 w-full border-b border-b-title-black-60/20 backdrop-blur-md">
+      <div class="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-3">
+        <div class="flex items-center gap-14">
+          <a href="#" class="flex-shrink-0">
+            <img src="/assets/images/logo.svg" width="264" height="35" alt="Imagem do logo da Empire Burger" />
+          </a>
+
+          <nav class="hidden lg:inline">
+            <ul class="flex items-center gap-4">
+              <li>
+                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Promoção</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Cardápio</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Comentário</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="hidden items-center gap-4 sm:flex">
+            <a href="#">
+              <img src="/assets/images/icons/ifood.svg" alt="Icone do iFood" width="27" height="14" />
+            </a>
+            <a href="#">
+              <img src="/assets/images/icons/instagram.svg" alt="Icone do Instagram" width="27" height="27" />
+            </a>
+          </div>
+
+          <div class="hidden border-l border-l-title-black-38/30 pl-3 sm:flex">
+            <a class="hover: flex gap-2 rounded bg-yellow px-4 py-1.5 hover:bg-yellow-hover" href="#">
+              <img src="/assets/images/icons/whatsapp.svg" alt="Icone do WhatsApp" width="24" height="24" />
+              <span class="font-bold">Contato</span>
+            </a>
+          </div>
+
+          <button class="flex items-center justify-center rounded bg-title-black-60/20 p-2 lg:hidden">
+            <img src="/assets/images/icons/menu.svg" alt="Icone de um Menu Hamburger" />
+          </button>
+        </div>
+      </div>
+    </header>
 
     <main>
       <section class="h-[855px] bg-banner-promotion-mobile bg-cover bg-center sm:h-[545px] sm:bg-banner-promotion">
-        <div class="mx-auto flex h-full w-full max-w-6xl flex-col items-start px-6 pt-24 md:justify-center md:pt-0">
+        <div class="mx-auto flex h-full w-full max-w-7xl flex-col items-start px-6 pt-24 md:justify-center md:pt-0">
           <h1 class="text-lg font-bold text-title-black-38/90 sm:text-xl md:text-2xl">Uma nova experiência!</h1>
           <h2 class="font-lilita-one text-5xl text-brown sm:text-6xl md:text-7xl">
             KING
@@ -30,7 +80,7 @@
         </div>
       </section>
 
-      <section class="mx-auto -mt-28 w-full max-w-5xl px-8 md:-mt-16">
+      <section class="mx-auto -mt-28 w-full max-w-6xl px-8 md:-mt-16">
         <div class="flex flex-col gap-4 rounded-lg bg-white px-9 py-7 shadow-lg md:flex-row">
           <div class="flex flex-1 items-center gap-4 md:items-start">
             <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige p-4 md:my-auto">
@@ -72,7 +122,7 @@
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-6xl px-6 md:pt-0">
+      <section class="mx-auto w-full max-w-7xl px-6 md:pt-0">
         <div class="mt-16">
           <h1 class="font-lilita-one text-3xl uppercase text-title-black-38/90">Ofertas especiais</h1>
           <h2 class="mt-2 text-title-black-38/70">
@@ -97,7 +147,7 @@
                 class="h-full w-full"
                 src="/assets/images/offers/burger-prime.webp"
                 width="770"
-                height="430"
+                height="431"
                 alt="Imagem contendo uma foto de um hamburguer partido e várias batatas fritas"
               />
             </div>
@@ -139,7 +189,7 @@
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-6xl px-6 py-14">
+      <section class="mx-auto w-full max-w-7xl px-6 py-14">
         <div class="flex h-full flex-col gap-8 md:flex-row md:items-center">
           <div class="flex flex-grow items-center gap-4 rounded-xl bg-red px-3 py-4">
             <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-title-black-38/20 p-4 md:my-auto">
