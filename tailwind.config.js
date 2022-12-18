@@ -62,10 +62,10 @@ module.exports = {
                 'lilita-one': ['Lilita One', 'sans-serif']
             },
             backgroundImage: {
-                'banner-promotion': "url('/assets/images/banners/banner-promotion.png')",
-                'banner-promotion-mobile': "url('/assets/images/banners/banner-promotion-mobile.png')",
-                'banner-menu': "url('/assets/images/banners/banner-menu.png')",
-                'banner-menu-mobile': "url('/assets/images/banners/banner-menu-mobile.png')"
+                'banner-promotion': "url('/assets/images/banners/banner-promotion.webp')",
+                'banner-promotion-mobile': "url('/assets/images/banners/banner-promotion-mobile.webp')",
+                'banner-menu': "url('/assets/images/banners/banner-menu.webp')",
+                'banner-menu-mobile': "url('/assets/images/banners/banner-menu-mobile.webp')"
             },
             flex: {
                 '3': '3 3 0%'

@@ -731,11 +731,11 @@ video {
 }
 
 .bg-banner-promotion-mobile {
-  background-image: url('/assets/images/banners/banner-promotion-mobile.png');
+  background-image: url('/assets/images/banners/banner-promotion-mobile.webp');
 }
 
 .bg-banner-menu-mobile {
-  background-image: url('/assets/images/banners/banner-menu-mobile.png');
+  background-image: url('/assets/images/banners/banner-menu-mobile.webp');
 }
 
 .bg-cover {
@@ -928,7 +928,7 @@ video {
   }
 
   .sm\:bg-banner-promotion {
-    background-image: url('/assets/images/banners/banner-promotion.png');
+    background-image: url('/assets/images/banners/banner-promotion.webp');
   }
 
   .sm\:text-xl {
@@ -1021,6 +1021,6 @@ video {
   }
 
   .\32xl\:bg-banner-menu {
-    background-image: url('/assets/images/banners/banner-menu.png');
+    background-image: url('/assets/images/banners/banner-menu.webp');
   }
 }
