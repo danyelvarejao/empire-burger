@@ -17,20 +17,21 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 ## 📝 Critérios de aceite
 
 - [ ] Criar as seguintes seções:
+
 - [x] Menu
 - [x] Hero Banner
 - [x] Ofertas especiais
 - [x] Horário de funcionamento
 - [x] Cardápio
+- [x] Atendimento personalizado
+- [ ] Nossas entregas
+- [ ] Faça seu pedido
+- [ ] Localização no google maps
 - [ ] Footer
 
-- [ ] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
-
+- [x] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
 - [x] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
-
 - [x] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
-
-- [ ] Na seção onde fica o nosso castelo você deverá incorporar uma localização do google maps.
 
 ## 👤 Author
 

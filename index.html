@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Projeto desenvolvido para o desafio do BR Challenges" />
@@ -22,19 +22,19 @@
           <nav class="hidden lg:inline">
             <ul class="flex items-center gap-4">
               <li>
-                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Home</a>
+                <a href="#" class="p-1 text-lg text-title-black-60 hover:text-title-black-87">Home</a>
               </li>
               <li>
-                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Promoção</a>
+                <a href="#promotion" class="p-1 text-lg text-title-black-60 hover:text-title-black-87">Promoção</a>
               </li>
               <li>
-                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Cardápio</a>
+                <a href="#menu" class="p-1 text-lg text-title-black-60 hover:text-title-black-87">Cardápio</a>
               </li>
               <li>
-                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Comentário</a>
+                <a href="#comment" class="p-1 text-lg text-title-black-60 hover:text-title-black-87">Comentário</a>
               </li>
               <li>
-                <a href="#" class="text-lg text-title-black-60 hover:text-title-black-87">Contato</a>
+                <a href="#contact" class="p-1 text-lg text-title-black-60 hover:text-title-black-87">Contato</a>
               </li>
             </ul>
           </nav>
@@ -122,74 +122,72 @@
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-7xl px-6 md:pt-0">
-        <div class="mt-16">
-          <h1 class="font-lilita-one text-3xl uppercase text-title-black-38/90">Ofertas especiais</h1>
-          <h2 class="mt-2 text-title-black-38/70">
-            Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando nosso cardápio.
-          </h2>
+      <section id="promotion" class="mx-auto w-full max-w-7xl px-6 pt-16">
+        <h1 class="font-lilita-one text-3xl uppercase text-title-black-38/90">Ofertas especiais</h1>
+        <h2 class="mt-2 text-title-black-38/70">
+          Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando nosso cardápio.
+        </h2>
 
-          <div class="mt-4 grid gap-8 md:grid-cols-3 md:grid-rows-2">
-            <div class="relative md:col-span-2 md:row-span-2">
-              <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
-                <div>
-                  <h1 class="font-lilita-one text-xl uppercase text-white">Burger Prime+Batata</h1>
-                  <h2 class="text-lg text-white/70">250kg</h2>
-                </div>
-
-                <div class="self-end">
-                  <h3 class="text-sm text-white/70">Apenas</h3>
-                  <h4 class="font-lilita-one text-4xl text-white">HOJE</h4>
-                </div>
+        <div class="mt-4 grid gap-8 md:grid-cols-3 md:grid-rows-2">
+          <div class="relative md:col-span-2 md:row-span-2">
+            <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
+              <div>
+                <h1 class="font-lilita-one text-xl uppercase text-white">Burger Prime+Batata</h1>
+                <h2 class="text-lg text-white/70">250kg</h2>
               </div>
 
-              <img
-                class="h-full w-full"
-                src="/assets/images/offers/burger-prime.webp"
-                width="770"
-                height="431"
-                alt="Imagem contendo uma foto de um hamburguer partido e várias batatas fritas"
-              />
-            </div>
-
-            <div class="relative">
-              <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
-                <div>
-                  <h1 class="font-lilita-one text-xl uppercase text-title-black-38/90">Batata</h1>
-                  <h2 class="text-lg text-title-black-38/70">150kg</h2>
-                </div>
+              <div class="self-end">
+                <h3 class="text-sm text-white/70">Apenas</h3>
+                <h4 class="font-lilita-one text-4xl text-white">HOJE</h4>
               </div>
-
-              <img
-                class="h-full w-full"
-                src="/assets/images/offers/batata.webp"
-                width="371"
-                height="201"
-                alt="Imagem contendo várias batatas fritas dentro de um cesto de fritura"
-              />
             </div>
 
-            <div class="relative">
-              <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
-                <div>
-                  <h1 class="font-lilita-one text-xl uppercase text-title-black-38/90">Sorvete</h1>
-                  <h2 class="text-lg text-title-black-38/70">50kg</h2>
-                </div>
+            <img
+              class="h-full w-full"
+              src="/assets/images/offers/burger-prime.webp"
+              width="770"
+              height="431"
+              alt="Imagem contendo uma foto de um hamburguer partido e várias batatas fritas"
+            />
+          </div>
+
+          <div class="relative">
+            <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
+              <div>
+                <h1 class="font-lilita-one text-xl uppercase text-title-black-38/90">Batata</h1>
+                <h2 class="text-lg text-title-black-38/70">150kg</h2>
               </div>
-
-              <img
-                class="h-full w-full"
-                src="/assets/images/offers/sorvete.webp"
-                width="371"
-                height="201"
-                alt="Imagem de um sorvete com calda de chocolate em uma casquinha"
-              />
             </div>
+
+            <img
+              class="h-full w-full"
+              src="/assets/images/offers/batata.webp"
+              width="371"
+              height="201"
+              alt="Imagem contendo várias batatas fritas dentro de um cesto de fritura"
+            />
+          </div>
+
+          <div class="relative">
+            <div class="absolute flex h-full w-full flex-col justify-between px-5 py-3">
+              <div>
+                <h1 class="font-lilita-one text-xl uppercase text-title-black-38/90">Sorvete</h1>
+                <h2 class="text-lg text-title-black-38/70">50kg</h2>
+              </div>
+            </div>
+
+            <img
+              class="h-full w-full"
+              src="/assets/images/offers/sorvete.webp"
+              width="371"
+              height="201"
+              alt="Imagem de um sorvete com calda de chocolate em uma casquinha"
+            />
           </div>
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-7xl px-6 py-14">
+      <section id="menu" class="mx-auto w-full max-w-7xl px-6 py-14">
         <div class="flex h-full flex-col gap-8 md:flex-row md:items-center">
           <div class="flex flex-grow items-center gap-4 rounded-xl bg-red px-3 py-4">
             <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-title-black-38/20 p-4 md:my-auto">
@@ -221,7 +219,7 @@
               <p class="text-sm text-title-black-38/70">
                 Temos vários tipos de pratos para a nossa realeza, fique esperto porque temos sempre promoção
               </p>
-              <a class="mt-2 rounded bg-red px-5 py-2 font-bold text-white" href="#">Ver Cardápio Completo</a>
+              <a class="mt-2 rounded bg-red px-5 py-2 font-bold text-white" href="#menu">Ver Cardápio Completo</a>
             </div>
           </div>
 
@@ -272,6 +270,37 @@
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mx-auto w-full max-w-6xl px-6 py-12">
+        <div class="flex flex-col gap-2 md:flex-row md:gap-8">
+          <div class="relative">
+            <img
+              class="px-8"
+              src="/assets/images/eating-burger.webp"
+              alt="Imagem de uma mulher comendo um hamburguer"
+              width="286"
+              height="303"
+            />
+            <img
+              class="absolute bottom-0 -z-10"
+              src="/assets/images/eating-burger-background.webp"
+              width="379"
+              height="205"
+              alt="Imagem por trás da mullher comendo um hamburguer"
+            />
+          </div>
+
+          <div class="flex flex-col items-start justify-center gap-2">
+            <h1 class="font-lilita-one text-2xl uppercase text-title-black-38">
+              Atendimento
+              <span class="inline-block rounded bg-yellow px-1">Personalizado</span>
+            </h1>
+
+            <p class="text-title-black-38/70">Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal.</p>
+            <a class="rounded bg-red py-2 px-5 font-bold text-white" href="#menu">Cardápio Imperial</a>
           </div>
         </div>
       </section>
