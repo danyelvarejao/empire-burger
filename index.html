@@ -42,16 +42,20 @@
 
         <div class="flex gap-4">
           <div class="hidden items-center gap-4 sm:flex">
-            <a href="#">
+            <a href="https://www.ifood.com.br/" target="_blank">
               <img src="/assets/images/icons/ifood.svg" alt="Icone do iFood" width="27" height="14" />
             </a>
-            <a href="#">
+            <a href="https://instagram.com/" target="_blank">
               <img src="/assets/images/icons/instagram.svg" alt="Icone do Instagram" width="27" height="27" />
             </a>
           </div>
 
           <div class="hidden border-l border-l-title-black-38/30 pl-3 sm:flex">
-            <a class="hover: flex gap-2 rounded bg-yellow px-4 py-1.5 hover:bg-yellow-hover" href="#">
+            <a
+              class="hover: flex gap-2 rounded bg-yellow px-4 py-1.5 hover:bg-yellow-hover"
+              href="https://web.whatsapp.com/"
+              target="_blank"
+            >
               <img src="/assets/images/icons/whatsapp.svg" alt="Icone do WhatsApp" width="24" height="24" />
               <span class="font-bold">Contato</span>
             </a>
@@ -76,7 +80,9 @@
             Para quem tem um
             <span class="inline-block rounded-md bg-yellow p-1 text-xl font-bold">Apetite de um REI!</span>
           </h3>
-          <a class="mt-4 flex items-center justify-center rounded-md bg-red px-5 py-3 font-bold text-white" href="#">Comprar Agora</a>
+          <a class="mt-4 flex items-center justify-center rounded-md bg-red px-5 py-3 font-bold text-white hover:bg-red/90" href="#contact"
+            >Comprar Agora</a
+          >
         </div>
       </section>
 
@@ -84,7 +90,7 @@
         <div class="flex flex-col gap-4 rounded-lg bg-white px-9 py-7 shadow-lg md:flex-row">
           <div class="flex flex-1 items-center gap-4 md:items-start">
             <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige p-4 md:my-auto">
-              <img src="/assets/images/icons/hamburger.svg" width="32" height="32" alt="Icone de um Hamburguer" />
+              <img src="/assets/images/icons/hamburger.svg" width="32" height="32" alt="Icone de um Hambúrguer" />
             </div>
             <div class="flex flex-col gap-2">
               <h1 class="font-lilita-one text-xl uppercase text-title-black-38/75">Artesanal</h1>
@@ -122,7 +128,7 @@
         </div>
       </section>
 
-      <section id="promotion" class="mx-auto w-full max-w-7xl px-6 pt-16">
+      <section class="mx-auto w-full max-w-7xl px-6 pt-16" id="promotion">
         <h1 class="font-lilita-one text-3xl uppercase text-title-black-38/90">Ofertas especiais</h1>
         <h2 class="mt-2 text-title-black-38/70">
           Aproveite todas as nossas ofertas, fique de olho porque sempre estamos mudando nosso cardápio.
@@ -147,7 +153,7 @@
               src="/assets/images/offers/burger-prime.webp"
               width="770"
               height="431"
-              alt="Imagem contendo uma foto de um hamburguer partido e várias batatas fritas"
+              alt="Imagem contendo uma foto de um hambúrguer partido e várias batatas fritas"
             />
           </div>
 
@@ -187,7 +193,7 @@
         </div>
       </section>
 
-      <section id="menu" class="mx-auto w-full max-w-7xl px-6 py-14">
+      <section class="mx-auto w-full max-w-7xl px-6 py-14" id="menu">
         <div class="flex h-full flex-col gap-8 md:flex-row md:items-center">
           <div class="flex flex-grow items-center gap-4 rounded-xl bg-red px-3 py-4">
             <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-title-black-38/20 p-4 md:my-auto">
@@ -208,90 +214,73 @@
         </div>
       </section>
 
-      <section>
-        <div class="flex flex-col md:flex-row">
-          <div class="relative bg-banner-menu-mobile bg-cover bg-center md:flex-1 2xl:bg-banner-menu">
-            <div class="flex h-full flex-col items-start justify-center gap-2 px-6 py-7 2xl:ml-80">
-              <h1 class="font-lilita-one text-3xl uppercase text-brown">
-                Escolha o seu combo Imperial,
-                <span class="inline-block rounded-md bg-yellow p-1">peça agora!</span>
-              </h1>
-              <p class="text-sm text-title-black-38/70">
-                Temos vários tipos de pratos para a nossa realeza, fique esperto porque temos sempre promoção
-              </p>
-              <a class="mt-2 rounded bg-red px-5 py-2 font-bold text-white" href="#menu">Ver Cardápio Completo</a>
-            </div>
+      <section class="flex flex-col md:flex-row">
+        <div class="relative bg-banner-menu-mobile bg-cover bg-center md:flex-1 2xl:bg-banner-menu">
+          <div class="flex h-full flex-col items-start justify-center gap-2 px-6 py-7 2xl:ml-80">
+            <h1 class="font-lilita-one text-3xl uppercase text-brown">
+              Escolha o seu combo Imperial,
+              <span class="inline-block rounded-md bg-yellow p-1">peça agora!</span>
+            </h1>
+            <p class="text-sm text-title-black-38/70">
+              Temos vários tipos de pratos para a nossa realeza, fique esperto porque temos sempre promoção
+            </p>
+            <a class="mt-2 rounded bg-red px-5 py-2 font-bold text-white hover:bg-red/90" href="#menu">Ver Cardápio Completo</a>
           </div>
+        </div>
 
-          <div class="flex flex-col justify-center bg-brown p-8 md:flex-1">
-            <h1 class="mb-6 font-lilita-one text-3xl uppercase text-yellow">Nossa especialidade</h1>
-            <div class="flex flex-col gap-4">
-              <div>
-                <div class="flex font-lilita-one text-xl uppercase text-beige">
-                  <h1>Classic Burger</h1>
-                  <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
-                  <p>R$49,99</p>
-                </div>
-                <p class="text-sm text-white">
-                  Hambuguer bonito 160g, Molho, Bacon, Queijo Prato, peito de peru, Tomate, Alface, Servidor do pão de batata
-                </p>
+        <div class="flex flex-col justify-center bg-brown p-8 md:flex-1">
+          <h1 class="mb-6 font-lilita-one text-3xl uppercase text-yellow">Nossa especialidade</h1>
+          <div class="flex flex-col gap-4">
+            <div>
+              <div class="flex font-lilita-one text-xl uppercase text-beige">
+                <h1>Classic Burger</h1>
+                <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
+                <p>R$49,99</p>
               </div>
+              <p class="text-sm text-white">
+                Hambuguer bonito 160g, Molho, Bacon, Queijo Prato, peito de peru, Tomate, Alface, Servidor do pão de batata
+              </p>
+            </div>
 
-              <div>
-                <div class="flex font-lilita-one text-xl uppercase text-beige">
-                  <h1>Special Big Burger</h1>
-                  <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
-                  <p>R$49,99</p>
-                </div>
-                <p class="text-sm text-white">
-                  Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
-                </p>
+            <div>
+              <div class="flex font-lilita-one text-xl uppercase text-beige">
+                <h1>Special Big Burger</h1>
+                <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
+                <p>R$49,99</p>
               </div>
+              <p class="text-sm text-white">
+                Hambúrguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
+              </p>
+            </div>
 
-              <div>
-                <div class="flex font-lilita-one text-xl uppercase text-beige">
-                  <h1>Special Big Burger</h1>
-                  <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
-                  <p>R$49,99</p>
-                </div>
-                <p class="text-sm text-white">
-                  Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
-                </p>
+            <div>
+              <div class="flex font-lilita-one text-xl uppercase text-beige">
+                <h1>Special Big Burger</h1>
+                <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
+                <p>R$49,99</p>
               </div>
+              <p class="text-sm text-white">
+                Hambúrguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
+              </p>
+            </div>
 
-              <div>
-                <div class="flex font-lilita-one text-xl uppercase text-beige">
-                  <h1>Mexican burger</h1>
-                  <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
-                  <p>R$49,99</p>
-                </div>
-                <p class="text-sm text-white">
-                  Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
-                </p>
+            <div>
+              <div class="flex font-lilita-one text-xl uppercase text-beige">
+                <h1>Mexican burger</h1>
+                <div class="mx-2 mb-2 flex-1 border-b-4 border-dotted border-beige"></div>
+                <p>R$49,99</p>
               </div>
+              <p class="text-sm text-white">
+                Hambúrguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="mx-auto w-full max-w-6xl px-6 py-12">
-        <div class="flex flex-col gap-2 md:flex-row md:gap-8">
-          <div class="relative flex-shrink-0">
-            <img
-              class="px-8"
-              src="/assets/images/eating-burger.webp"
-              alt="Imagem de uma mulher comendo um hamburguer"
-              width="286"
-              height="303"
-            />
-            <img
-              class="absolute bottom-0 -z-10"
-              src="/assets/images/eating-burger-background.webp"
-              width="379"
-              height="205"
-              alt="Imagem por trás da mullher comendo um hamburguer"
-            />
-          </div>
+      <section id="comment" class="mx-auto w-full max-w-6xl px-6 py-12">
+        <div class="flex flex-col gap-8 lg:flex-row">
+          <img src="/assets/images/eating-burger.png" width="557" height="445" alt="Imagem de uma mulher comendo um hambúrguer" />
 
           <div class="flex flex-col items-start justify-center gap-2">
             <h1 class="font-lilita-one text-2xl uppercase text-title-black-38">
@@ -300,12 +289,157 @@
             </h1>
 
             <p class="text-title-black-38/70">Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal.</p>
-            <a class="rounded bg-red py-2 px-5 font-bold text-white" href="#menu">Cardápio Imperial</a>
+            <a class="rounded bg-red py-2 px-5 font-bold text-white hover:bg-red/90" href="#menu">Cardápio Imperial</a>
+          </div>
+        </div>
+
+        <hr class="mt-24 mb-12 h-0.5 bg-title-black-87/20" />
+      </section>
+
+      <section class="mx-auto w-full max-w-6xl px-6">
+        <div class="flex flex-col gap-8 lg:flex-row">
+          <img
+            src="/assets/images/phone-hamburger.png"
+            alt="Imagem de vários hambúrgueres saindo de dentro de uma tela de celular"
+            width="570"
+            height="536"
+          />
+
+          <div class="flex flex-col items-start justify-center gap-2">
+            <h1 class="font-lilita-one text-2xl uppercase text-title-black-38">Nossas Entregas</h1>
+
+            <div class="w-full">
+              <ul class="flex flex-col gap-2">
+                <li class="flex items-center gap-4 rounded-2xl bg-white/70 py-4 px-6 hover:bg-white hover:shadow">
+                  <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige">
+                    <img class="h-8 w-8" src="/assets/images/icons/whatsapp.svg" alt="Icone do WhatsApp" />
+                  </div>
+
+                  <div class="flex flex-col border-l border-l-title-black-38/20 pl-6">
+                    <h1 class="font-lilita-one text-xl uppercase text-title-black-38">WhatsApp</h1>
+                    <p class="text-title-black-60">Vamos direto ao ponto, sem perder tempo!</p>
+                  </div>
+                </li>
+
+                <li class="flex items-center gap-4 rounded-2xl bg-white/70 py-4 px-6 hover:bg-white hover:shadow">
+                  <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige">
+                    <img class="h-8 w-8" src="/assets/images/icons/motoped.svg" alt="Icone de uma Bicicleta motorizada" />
+                  </div>
+
+                  <div class="flex flex-col border-l border-l-title-black-38/20 pl-6">
+                    <h1 class="font-lilita-one text-xl uppercase text-title-black-38">Entrega</h1>
+                    <p class="text-title-black-60">Entregamos em menos de 45 minutos na porta da sua casa!</p>
+                  </div>
+                </li>
+
+                <li class="flex items-center gap-4 rounded-2xl bg-white/70 py-4 px-6 hover:bg-white hover:shadow">
+                  <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige">
+                    <img class="h-8 w-8" src="/assets/images/icons/ice-cream.svg" alt="Icone de um Sorvete" />
+                  </div>
+
+                  <div class="flex flex-col border-l border-l-title-black-38/20 pl-6">
+                    <h1 class="font-lilita-one text-xl uppercase text-title-black-38">Sobremesa</h1>
+                    <p class="text-title-black-60">Pedidos acima de 100 reais, ganham brindes.</p>
+                  </div>
+                </li>
+
+                <li class="flex items-center gap-4 rounded-2xl bg-white/70 py-4 px-6 hover:bg-white hover:shadow">
+                  <div class="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-beige">
+                    <img class="h-8 w-8" src="/assets/images/icons/motoped.svg" alt="Icone de uma Bicicleta motorizada" />
+                  </div>
+
+                  <div class="flex flex-col border-l border-l-title-black-38/20 pl-6">
+                    <h1 class="font-lilita-one text-xl uppercase text-title-black-38">iFood</h1>
+                    <p class="text-title-black-60">Nossa loja é Top 1 da região!</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
+
+      <section id="contact" class="mx-auto w-full max-w-6xl px-6 py-12">
+        <div class="rounded-xl bg-red px-8 py-4 shadow-lg">
+          <div class="flex flex-col items-center gap-4 md:flex-row">
+            <div class="flex h-24 w-24 flex-shrink-0 items-center justify-center rounded-full bg-title-black-38/20">
+              <img src="/assets/images/icons/phone.svg" alt="Icone de um Celular" width="36" height="55" />
+            </div>
+
+            <div class="flex w-full flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
+              <div class="flex max-w-sm flex-col">
+                <h1 class="font-lilita-one text-xl uppercase text-title-black-38/70">Faça o seu pedido agora mesmo!</h1>
+                <p class="text-white">
+                  Venha saborear a melhor experiência de hamburgueres artesanal do <span class="font-bold">Empires Burger</span> com
+                  temática medieval!
+                </p>
+              </div>
+
+              <a
+                class="flex items-center justify-center rounded bg-beige py-2 px-4 text-center font-bold uppercase text-red hover:bg-beige/90"
+                href="#"
+                >Solicitar Pedido</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="map">
+        <h1 class="text-center font-lilita-one text-3xl uppercase">Onde fica o nosso castelo</h1>
+        <p class="text-center text-lg text-title-black-87/70">Estaremos de portas abertas para a nossa realeza.</p>
+
+        <iframe
+          title="Google Maps"
+          class="mt-6 w-full"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?hl=en&amp;q=Torre Effel&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="mx-auto w-full max-w-6xl px-6">
+      <div class="flex flex-col lg:flex-row lg:justify-between lg:border-b lg:border-b-title-black-38/10">
+        <div class="flex items-center justify-center border-b border-b-title-black-38/10 py-4 lg:border-none">
+          <img src="/assets/images/logo-yellow.svg" alt="Imagem do logo da Empire Burger" width="264" height="36" />
+        </div>
+
+        <div class="flex items-center justify-center gap-4 border-b border-b-title-black-38/10 py-4 lg:order-3 lg:border-none">
+          <a href="https://www.ifood.com.br/" target="_blank">
+            <img src="/assets/images/icons/ifood-yellow.svg" alt="Icone do iFood" width="27" height="14" />
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img src="/assets/images/icons/instagram-yellow.svg" alt="Icone do Instagram" width="18" height="18" />
+          </a>
+        </div>
+
+        <div class="flex items-center justify-center border-b border-b-title-black-38/10 py-4 lg:border-none">
+          <ul class="flex flex-col items-center gap-3 lg:flex-row lg:gap-8">
+            <li>
+              <a class="text-lg text-title-black-87/80 hover:text-title-black-87" href="#">Home</a>
+            </li>
+            <li>
+              <a class="text-lg text-title-black-87/80 hover:text-title-black-87" href="#map">Localização</a>
+            </li>
+            <li>
+              <a class="text-lg text-title-black-87/80 hover:text-title-black-87" href="#menu">Cardápio</a>
+            </li>
+            <li>
+              <a class="text-lg text-title-black-87/80 hover:text-title-black-87" href="#contact">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="py-4">
+        <p class="text-center">
+          <span class="font-bold text-gray-800">2022 © EmpireBurger.</span>
+          <span class="text-gray-400">Todos os direitos reservados.</span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

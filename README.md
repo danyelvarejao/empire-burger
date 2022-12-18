@@ -16,7 +16,7 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 ## 📝 Critérios de aceite
 
-- [ ] Criar as seguintes seções:
+- [x] Criar as seguintes seções:
 
 - [x] Menu
 - [x] Hero Banner
@@ -24,10 +24,10 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [x] Horário de funcionamento
 - [x] Cardápio
 - [x] Atendimento personalizado
-- [ ] Nossas entregas
-- [ ] Faça seu pedido
-- [ ] Localização no google maps
-- [ ] Footer
+- [x] Nossas entregas
+- [x] Faça seu pedido
+- [x] Localização no google maps
+- [x] Footer
 
 - [x] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
 - [x] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
